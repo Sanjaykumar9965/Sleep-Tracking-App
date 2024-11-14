@@ -48,7 +48,7 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
     var error by remember { mutableStateOf("") }
     val imageModifier = Modifier
     Image(
-        painterResource(id = R.drawable.sleeptracking),
+        painterResource(id = R.drawable.img_20241114_wa0015),
         contentScale = ContentScale.FillHeight,
         contentDescription = "",
         modifier = imageModifier
@@ -61,7 +61,7 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.sleep),
+            painter = painterResource(id = R.drawable.img_20241114_wa0014),
             contentDescription = "",
 
             modifier = imageModifier
